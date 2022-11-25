@@ -24,8 +24,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
         }
         
-    
-        
     }
     
     @IBAction func sendBtnPressed(_ sender: Any) {
@@ -37,7 +35,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             return
         }
         
-        captchaService.checkRecognized(id, completion: )
+        captchaService.checkRecognized(id, completion: processCaptchaResponse)
     }
     
     @IBOutlet weak var label: UILabel!
@@ -60,9 +58,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         switch result {
         
         case .success(response: let response):
-            print(response.request)
             label.text = "\(response.request!)"
-            id = response.request
+            if let response = Int(response.request!) {
+                id = String(response)
+            }
             break;
         case .failure(error: let error):
             label.text = "\(error.localizedDescription)"

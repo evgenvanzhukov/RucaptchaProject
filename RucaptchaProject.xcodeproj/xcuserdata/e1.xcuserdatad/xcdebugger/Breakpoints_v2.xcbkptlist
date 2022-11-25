@@ -62,8 +62,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -87,70 +87,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6982E23E-E305-4D4E-BEDD-04212B6A0CA8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RucaptchaProject/RucaptchaService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "sedToRecognize(_:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E91AFA13-BCCB-4883-BE37-1F5F8DCF2226"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RucaptchaProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "processCaptchaResponse(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E91AFA13-BCCB-4883-BE37-1F5F8DCF2226 - 685c74f1eeecf76"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RucaptchaProject.ViewController.processCaptchaResponse(RucaptchaProject.ApiResult) -&gt; ()"
-                  moduleName = "RucaptchaProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/e1/Desktop/RucaptchaProject/RucaptchaProject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "219">
-               </Location>
-               <Location
-                  uuid = "E91AFA13-BCCB-4883-BE37-1F5F8DCF2226 - 685c74f1eeecf76"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RucaptchaProject.ViewController.processCaptchaResponse(RucaptchaProject.ApiResult) -&gt; ()"
-                  moduleName = "RucaptchaProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/e1/Desktop/RucaptchaProject/RucaptchaProject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "287">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "07D6CDAF-60ED-40AF-9700-C10D0C37797B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -158,8 +94,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "processCaptchaResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -167,16 +103,112 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9381C63D-3E2E-408D-A589-156BBC682DDB"
+            uuid = "E416C07C-70F9-4E9E-883F-9C265638ADD3"
             shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RucaptchaProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "checkBtnPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "455E781A-9B85-4E1F-B9CA-F63498FC4CE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RucaptchaProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "checkBtnPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "455E781A-9B85-4E1F-B9CA-F63498FC4CE4 - c7508e1186133f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RucaptchaProject.ViewController.checkBtnPressed(Any) -&gt; ()"
+                  moduleName = "RucaptchaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e1/Desktop/RucaptchaProject/RucaptchaProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "455E781A-9B85-4E1F-B9CA-F63498FC4CE4 - 8b34e1ebc761ac4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (RucaptchaProject.ApiResult) -&gt; () in implicit closure #1 (RucaptchaProject.ViewController) -&gt; (RucaptchaProject.ApiResult) -&gt; () in RucaptchaProject.ViewController.checkBtnPressed(Any) -&gt; ()"
+                  moduleName = "RucaptchaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e1/Desktop/RucaptchaProject/RucaptchaProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92D04966-18A3-4579-AB45-11D6D6EFCE9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RucaptchaProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "processCaptchaResponse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29C09F06-343E-43A9-8DAF-7F9F501551C3"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RucaptchaProject/RucaptchaService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "sedToRecognize(_:completion:)"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "checkRecognized(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E530593-A781-494D-9C74-7532F4D0D39F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RucaptchaProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "processCaptchaResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

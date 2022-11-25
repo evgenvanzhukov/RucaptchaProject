@@ -41,6 +41,7 @@ class RucaptchaService {
         let base64 = imageData.base64EncodedString(options: .lineLength64Characters)
                 
         if let url = URL(string: urlSendCaptcha + "?key=\(key)&method=base64&json=1") {
+            
             var request = URLRequest(url: url)
             
             let boundary = "Boundary-\(UUID().uuidString)"
@@ -51,48 +52,12 @@ class RucaptchaService {
             "--\(boundary)--\r\n"
             
             request.httpMethod = "POST"
+            
             request.addValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
+            
             request.httpBody = body.data(using: .utf8)
             
-            
-            urlSession.dataTask(with: request) {[weak self] (data, response, error) in
-                var result: ApiResult
-                
-                defer {
-                    DispatchQueue.main.async {
-                        completion(result)
-                    }
-                }
-                
-                if error != nil {
-                    print(error!.localizedDescription)
-                    result = ApiResult.failure(error: error as! Error)
-                    return
-                }
-                
-                if let httpResponse = response as? HTTPURLResponse {
-                    print(httpResponse.statusCode)
-                    if httpResponse.statusCode != 200 {
-                        result = .failure(error: "Status: \(httpResponse.statusCode)")
-                        return
-                    }
-                }
-                
-                if let content = data {
-                    //let stringContent = String(data: content, encoding: String.Encoding.utf8)
-                    do {
-                        let captchaResponse = try self?.decoder.decode(CaptchaResponse.self, from: content)
-                        result = ApiResult.success(response: captchaResponse!)
-                        return
-                    } catch (let errorDecoding) {
-                        print(errorDecoding.localizedDescription)
-                        result = ApiResult.failure(error: errorDecoding)
-                        return
-                    }
-                }
-                
-                result = .failure(error: "empty result")
-            }.resume()
+            sendRequest(request, completion: completion).resume()
         }
     }
 
@@ -100,7 +65,49 @@ class RucaptchaService {
         if let url = URL(string: urlResult + "?key=\(key)&action=get&json=1&id=\(id)") {
             var request = URLRequest(url: url)
             
+            sendRequest(request, completion: completion).resume()
+        }
+    }
+    
+    func sendRequest(_ request: URLRequest, completion: @escaping (ApiResult) -> Void) -> URLSessionDataTask {
+        return
+        urlSession.dataTask(with: request) {[weak self] (data, response, error) in
+            var result: ApiResult
             
+            defer {
+                DispatchQueue.main.async {
+                    completion(result)
+                }
+            }
+            
+            if error != nil {
+                print(error!.localizedDescription)
+                result = ApiResult.failure(error: error as! Error)
+                return
+            }
+            
+            if let httpResponse = response as? HTTPURLResponse {
+                print(httpResponse.statusCode)
+                if httpResponse.statusCode != 200 {
+                    result = .failure(error: "Status: \(httpResponse.statusCode)")
+                    return
+                }
+            }
+            
+            if let content = data {
+                //let stringContent = String(data: content, encoding: String.Encoding.utf8)
+                do {
+                    let captchaResponse = try self?.decoder.decode(CaptchaResponse.self, from: content)
+                    result = ApiResult.success(response: captchaResponse!)
+                    return
+                } catch (let errorDecoding) {
+                    print(errorDecoding.localizedDescription)
+                    result = ApiResult.failure(error: errorDecoding)
+                    return
+                }
+            }
+            
+            result = .failure(error: "empty result")
         }
     }
 }
