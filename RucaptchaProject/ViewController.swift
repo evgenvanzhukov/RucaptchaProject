@@ -15,14 +15,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var imageView: UIImageView!
     
     @IBAction func loadBtnPressed(_ sender: Any) {
-        var image = UIImagePickerController()
+        var imagePicker = UIImagePickerController()
         
-        image.delegate = self
-        image.allowsEditing = true
-        image.sourceType = .photoLibrary
-        self.present(image, animated: true) {
-            
-        }
+        imagePicker.delegate = self
+        imagePicker.allowsEditing = true
+        imagePicker.sourceType = .photoLibrary
+        
+        self.present(imagePicker, animated: true)
         
     }
     

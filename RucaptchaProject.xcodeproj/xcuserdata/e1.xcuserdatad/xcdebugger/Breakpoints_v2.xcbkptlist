@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7AE76165-318B-4E2B-847C-71DB915983E4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RucaptchaProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "loadBtnPressed(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7AE76165-318B-4E2B-847C-71DB915983E4 - e649f789a6661b83"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RucaptchaProject.ViewController.loadBtnPressed(Any) -&gt; ()"
-                  moduleName = "RucaptchaProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/e1/Desktop/RucaptchaProject/RucaptchaProject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "220">
-               </Location>
-               <Location
-                  uuid = "7AE76165-318B-4E2B-847C-71DB915983E4 - 55ee114502314a75"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in RucaptchaProject.ViewController.loadBtnPressed(Any) -&gt; ()"
-                  moduleName = "RucaptchaProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/e1/Desktop/RucaptchaProject/RucaptchaProject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "4">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7AB7083A-4473-44EE-A398-D9970DE314D8"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -62,25 +14,9 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6C898BA9-5E9E-4968-AE24-3A7C5EAA2CE3"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RucaptchaProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "loadBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -94,8 +30,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "processCaptchaResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +46,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "checkBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +62,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "checkBtnPressed(_:)"
             landmarkType = "7">
             <Locations>
@@ -174,8 +110,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "processCaptchaResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,8 +142,8 @@
             filePath = "RucaptchaProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "processCaptchaResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
