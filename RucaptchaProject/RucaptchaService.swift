@@ -27,12 +27,12 @@ class RucaptchaService {
     let urlSendCaptcha = "http://rucaptcha.com/in.php"// используется для отправки капчи
     let urlResult = "http://rucaptcha.com/res.php"
     //http://rucaptcha.com/res.php используется для получения ответа на капчу
-    var key = "af2b5577869d65b139ce920ceafaa873" //приватный ключ
+    var key = "9c9be086971952af0bb14546c4305f70" //приватный ключ
     let method = "base64"
     let urlSession = URLSession.shared
     let decoder = JSONDecoder()
     
-    func sedToRecognize(_ image: UIImage, completion: @escaping (ApiResult) -> Void) {
+    func sendToRecognize(_ image: UIImage, completion: @escaping (ApiResult) -> Void) {
         
         let newImage = resizeImage(image: image, newWidth: CGFloat(200))
         

@@ -14,6 +14,8 @@
 		677B8CF6292A1DB300206576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677B8CF5292A1DB300206576 /* Assets.xcassets */; };
 		677B8CF9292A1DB300206576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677B8CF7292A1DB300206576 /* LaunchScreen.storyboard */; };
 		677B8D03292A1DD100206576 /* RucaptchaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B8D02292A1DD100206576 /* RucaptchaService.swift */; };
+		678B8BA62934B0580093AEB1 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B8BA52934B0580093AEB1 /* ImageScrollView.swift */; };
+		67D663F0293C7ECD0031B60E /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D663EF293C7ECD0031B60E /* ImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		677B8CF8292A1DB300206576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677B8CFA292A1DB300206576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		677B8D02292A1DD100206576 /* RucaptchaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RucaptchaService.swift; sourceTree = "<group>"; };
+		678B8BA52934B0580093AEB1 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		67D663EF293C7ECD0031B60E /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				677B8CF7292A1DB300206576 /* LaunchScreen.storyboard */,
 				677B8CFA292A1DB300206576 /* Info.plist */,
 				677B8D02292A1DD100206576 /* RucaptchaService.swift */,
+				678B8BA52934B0580093AEB1 /* ImageScrollView.swift */,
+				67D663EF293C7ECD0031B60E /* ImageExtensions.swift */,
 			);
 			path = RucaptchaProject;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			files = (
 				677B8CF1292A1DB100206576 /* ViewController.swift in Sources */,
 				677B8D03292A1DD100206576 /* RucaptchaService.swift in Sources */,
+				678B8BA62934B0580093AEB1 /* ImageScrollView.swift in Sources */,
+				67D663F0293C7ECD0031B60E /* ImageExtensions.swift in Sources */,
 				677B8CED292A1DB100206576 /* AppDelegate.swift in Sources */,
 				677B8CEF292A1DB100206576 /* SceneDelegate.swift in Sources */,
 			);
