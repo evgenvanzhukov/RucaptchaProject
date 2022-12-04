@@ -12,7 +12,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var captchaService = RucaptchaService()
     var imageScrollView: ImageScrollView!
     var id: String?
-        
+    let pinchMethod = UIPinchGestureRecognizer(target: self, action: #selector(pinchImage(sender:)))
+
     @IBOutlet weak var croppedImageView: UIImageView!
     
     @IBOutlet weak var ancorView: UIView!
@@ -60,6 +61,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         if let image = info[UIImagePickerController.InfoKey.editedImage] as? UIImage
         {
             self.imageScrollView.setUp(img: image)
+            imageScrollView.imageView.addGestureRecognizer(pinchMethod)
         }
         
         self.dismiss(animated: true, completion: nil)
@@ -73,9 +75,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         view.sendSubviewToBack(imageScrollView)
         setUpImageScrollView()
 
-        let pinchMethod = UIPinchGestureRecognizer(target: self, action: #selector(pinchImage(sender:)))
-        
-        imageScrollView.imageView.addGestureRecognizer(pinchMethod)
     }
     
     @objc
