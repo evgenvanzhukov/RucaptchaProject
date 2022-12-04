@@ -9,7 +9,7 @@ import UIKit
 
 class ImageScrollView: UIScrollView, UIScrollViewDelegate {
 
-    var image: UIImageView!
+    var imageView: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -17,12 +17,12 @@ class ImageScrollView: UIScrollView, UIScrollViewDelegate {
     }
     
     func setUp(img: UIImage) {
-        if(image != nil) {
-            image.removeFromSuperview()
-            image = nil
+        if(imageView != nil) {
+            imageView.removeFromSuperview()
+            imageView = nil
         }
-        self.image = UIImageView(image: img)
-        self.addSubview(image)
+        self.imageView = UIImageView(image: img)
+        self.addSubview(imageView)
         
         configure(for: img.size)
         
@@ -32,11 +32,10 @@ class ImageScrollView: UIScrollView, UIScrollViewDelegate {
     
     func configure(for imageSize: CGSize) {
         self.contentSize = imageSize
-        
     }
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return image
+        return imageView
     }
     
     required init?(coder: NSCoder) {

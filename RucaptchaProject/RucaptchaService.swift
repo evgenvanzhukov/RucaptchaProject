@@ -1,40 +1,19 @@
-//
-//  RucaptchaService.swift
-//  RucaptchaProject
-//
-//  Created by Evgen on 20.11.2022.
-//
 
 import Foundation
 import UIKit
 
 class RucaptchaService {
-    
-    //todo: at new class
-    func resizeImage(image: UIImage, newWidth: CGFloat) -> UIImage {
-
-        let scale = newWidth / image.size.width
-        let newHeight = image.size.height * scale
-        UIGraphicsBeginImageContext(CGSize(width: newWidth, height: newHeight))
-        image.draw(in: CGRect(x: 0, y: 0, width: newWidth, height: newHeight))
-
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-
-        return newImage!
-    }
 
     let urlSendCaptcha = "http://rucaptcha.com/in.php"// используется для отправки капчи
-    let urlResult = "http://rucaptcha.com/res.php"
-    //http://rucaptcha.com/res.php используется для получения ответа на капчу
-    var key = "9c9be086971952af0bb14546c4305f70" //приватный ключ
+    let urlResult = "http://rucaptcha.com/res.php" //используется для получения ответа на капчу
+    var key = "приватный ключ"
     let method = "base64"
     let urlSession = URLSession.shared
     let decoder = JSONDecoder()
     
     func sendToRecognize(_ image: UIImage, completion: @escaping (ApiResult) -> Void) {
         
-        let newImage = resizeImage(image: image, newWidth: CGFloat(200))
+        let newImage = image.resizeImage(newWidth: CGFloat(200))
         
         let imageData: NSData = newImage.pngData()! as NSData
         
@@ -131,5 +110,3 @@ enum ApiResult {
     case success (response: CaptchaResponse)
     case failure (error: Error)
 }
-
-extension String: Error {}

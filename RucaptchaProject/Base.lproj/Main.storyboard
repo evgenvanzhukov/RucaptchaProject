@@ -55,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKr-Ea-sza">
-                                <rect key="frame" x="64" y="294" width="300" height="80"/>
+                                <rect key="frame" x="57" y="264" width="300" height="80"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -64,7 +64,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zoa-mg-8UH">
-                                <rect key="frame" x="57" y="782" width="300" height="80"/>
+                                <rect key="frame" x="57" y="444" width="300" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="ccF-Xx-X6V"/>
                                     <constraint firstAttribute="height" constant="80" id="y8d-vD-dHR"/>
@@ -74,10 +74,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lKr-Ea-sza" secondAttribute="trailing" constant="50" id="Gfp-AQ-eC9"/>
+                            <constraint firstItem="Zoa-mg-8UH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="400" id="DIx-ri-Lx2"/>
                             <constraint firstItem="QsE-W2-TxP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HAH-Zz-xFm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zoa-mg-8UH" secondAttribute="bottom" id="HOr-J4-fXf"/>
-                            <constraint firstItem="lKr-Ea-sza" firstAttribute="top" secondItem="QsE-W2-TxP" secondAttribute="bottom" constant="200" id="NVY-ak-7rV"/>
+                            <constraint firstItem="lKr-Ea-sza" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="NVY-ak-7rV"/>
                             <constraint firstItem="fA6-vl-mUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UPI-GM-NUM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fA6-vl-mUe" secondAttribute="trailing" id="ilk-j6-AMR"/>
                             <constraint firstItem="fA6-vl-mUe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="556" id="jNg-Of-bsC"/>
@@ -85,6 +84,7 @@
                             <constraint firstItem="Zoa-mg-8UH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t5B-94-VMR"/>
                             <constraint firstItem="QsE-W2-TxP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="twS-0l-YWF"/>
                             <constraint firstItem="QsE-W2-TxP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="v3s-Qc-MAk"/>
+                            <constraint firstItem="lKr-Ea-sza" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z9w-c1-CGv"/>
                         </constraints>
                     </view>
                     <connections>

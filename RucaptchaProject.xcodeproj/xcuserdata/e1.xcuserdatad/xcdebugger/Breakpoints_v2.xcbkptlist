@@ -14,8 +14,8 @@
             filePath = "RucaptchaProject/RucaptchaService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "checkRecognized(_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23,32 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "501A0870-9DCB-4E0F-8173-81CAB2CE4A2D"
+            uuid = "1693B304-2DBF-43D5-A9CF-40697B63BC93"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RucaptchaProject/ViewController.swift"
+            filePath = "RucaptchaProject/RucaptchaService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "sendBtnPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B16B3787-FF04-4164-B061-F68E8C68E0AD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RucaptchaProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "sendBtnPressed(_:)"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "sendToRecognize(_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
